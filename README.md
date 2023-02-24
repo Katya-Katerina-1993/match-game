@@ -1,2 +1,7 @@
 # match-game
-This is a game of finding cards with the same numbers. With the ability to choose the desired number of cards.
+Это игра в нахождение карточек с парными номерами. В инпут вводится четное число от 2 до 10, и с помощью алгоритма Фишера-Йетса происходит заполнение игрового поля карточками с числами исходя из введенного в инпут числа. 
+При нахождении всех одинаковых чисел появляется кнопка "Сыграть еще". С помощью setTimeout реализован таймер, при истечении времени которого появляется модальное окно с сообщением "Игра закончена".
+
+![Стартовая](https://user-images.githubusercontent.com/110754881/221101483-ed5bc2d0-d5f9-4571-99de-4ec9d78aae9d.png)
+![Игра 6-6](https://user-images.githubusercontent.com/110754881/221101500-a66b182a-858d-4ac2-bebe-567ceee9a8dc.png)
+![Кнопка](https://user-images.githubusercontent.com/110754881/221101526-c37de1f2-7655-48d8-b4f1-bd7ec0b57739.png)
